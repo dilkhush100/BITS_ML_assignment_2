@@ -34,3 +34,6 @@ https://github.com/dilkhush100/BITS_ML_assignment_2
 | Naive Bayes | Yielded the lowest recall (51.59%) and MCC (0.4833). This is expected, as clinical features (like smoking, blood pressure, and heart functionality) are highly correlated, heavily violating the algorithm's core assumption of strict feature independence. |
 | Random Forest (Ensemble) | Solved the single Decision Tree's variance issues through bootstrapping. It generalized near-perfectly on the unseen test data, exhibiting a 99.1% accuracy and a 0.9855 F1 score. |
 | **Overall Winner for your dataset?** | **Random Forest (Ensemble)**. It dominated across all 6 required metrics, specifically achieving a near-perfect MCC (Matthews Correlation Coefficient) of 0.9791. This makes it the most robust choice for a medical diagnostic tool where minimizing both false positives and false negatives carries significant clinical weight. |
+
+## f. Streamlit app
+- **App Link:** [Heart Failure Prediction app link](https://dilkhush100-bits-ml-assignment-2-app-rcfbel.streamlit.app)
