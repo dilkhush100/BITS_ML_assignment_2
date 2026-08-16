@@ -7,10 +7,7 @@ env/
 .DS_Store
 .venv_bits/
 
-# Datasets (Training data should not be pushed)
-*.csv
-!test_data.csv 
-# Note: We explicitly allow test_data.csv as it is required for Streamlit
+
 
 # IDE config
 .vscode/
