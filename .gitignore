@@ -1,11 +1,11 @@
 # Python Environment
 venv/
 env/
-__pycache__/
-*.py[cod]
+
 
 # System Files
 .DS_Store
+.venv_bits/
 
 # Datasets (Training data should not be pushed)
 *.csv
